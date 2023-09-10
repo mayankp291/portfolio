@@ -1,58 +1,51 @@
 {
   "meta": {
-    "title": "DP for your portfolio",
+    "title": "Mayank's Website",
     "defaultLanguage": "English"
   },
   "aboutMe": {
-    "name": "Min Kyung Kang",
-    "nickName": "nickName!",
+    "name": "Mayank Panjiyara",
+    "nickName": "mayankp291",
     "profileImg": "../assets/images/me.gif",
-    "email": "mnk918p@gmail.com",
-    "githubUrl": "https://github.com/ddongule",
-    "blogUrl": "https://mingule.tistory.com/",
+    "email": "mayankp@u.nus.edu",
+    "githubUrl": "https://github.com/mayankp291",
     "linkedInUrl": "https://www.linkedin.com/"
   },
 
   "skillSets": [
     {
-      "category": "Front End Skills",
+      "category": "Languages",
       "skills": [
-        { "skill": "Javascript", "level": "5" },
-        { "skill": "HTML/CSS(SASS)", "level": "5" },
-        { "skill": "React", "level": "5" },
-        { "skill": "Typescript", "level": "4" }
+        { "skill": "C/C++"},
+        { "skill": "Java"},
+        { "skill": "Scala" },
+        { "skill": "Python"},
+        { "skill": "Javascript"}
       ]
     },
     {
-      "category": "Back End Skills",
+      "category": "Development",
       "skills": [
-        { "skill": "Python", "level": "3" },
-        { "skill": "Django", "level": "2" },
-        { "skill": "Django-Rest-Framework", "level": "1" },
-        { "skill": "Java", "level": "5" },
-        { "skill": "Spring", "level": "5" },
-        { "skill": "Ruby", "level": "4" },
-        { "skill": "Ruby-on-Rails", "level": "5" }
+        { "skill": "Vue.js"},
+        { "skill": "React.js"},
+        { "skill": "Robot Operating System (ROS)" },
+        { "skill": "Apache Spark"},
+        { "skill": "MQTT"},
+        { "skill": "Sockets (TCP/IP)"}
       ]
     },
     {
-      "category": "Collaboration Skills",
+      "category": "Tools/Etc...",
       "skills": [
-        { "skill": "Git/Github" },
-        { "skill": "Notion" },
-        { "skill": "Slack" },
-        { "skill": "Swit" }
-      ]
-    },
-    {
-      "category": "Etc...",
-      "skills": [
-        { "skill": "Netlify" },
-        { "skill": "Heroku" },
-        { "skill": "Pythonanywhere" },
-        { "skill": "AWS EC2" },
-        { "skill": "AWS Beanstalk" },
-        { "skill": "Docker" }
+        { "skill": "Azure"},
+        { "skill": "Amazon Web Services"},
+        { "skill": "Google Cloud Platform" },
+        { "skill": "Docker"},
+        { "skill": "Kubernetes"},
+        { "skill": "CI/CD"},
+        { "skill": "Git"},
+        { "skill": "Bash Scripting"},
+        { "skill": "Unix/Linux" }
       ]
     }
   ],
@@ -62,21 +55,41 @@
       "imgUrl": "",
       "githubUrl": "https://github.com/ddongule",
       "projectUrl": "",
-      "title": "[Team] Project Title",
-      "term": "21.02.02 v1.3.0",
-      "description": "About the project ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "attribution": "How you made it.. Technology that you used.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "tags": ["React", "Javascript", "Java", "Spring"]
+      "title": "LaserTag++",
+      "term": "Capstone Project for NUS Computer Engineering",
+      "description": "A multiplayer laser tag game with hand actions powered by Machine Learning",
+      "attribution": "Handled external communications between FPGA, laptop, server and multiple mobile devices. Multicore programming on FPGA to handle concurrent streams of data.",
+      "tags": ["Python", "Sockets", "MQTT", "Concurrency"]
     },
     {
       "imgUrl": "/assets/images/example-image-light.png",
       "githubUrl": "https://github.com/ddongule",
       "projectUrl": "",
-      "title": "[Personal] Project Title",
-      "term": "21.01.01 v1.0.0",
-      "description": "About the project ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "attribution": "How you made it.. Technology that you used.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "tags": ["React", "Javascript", "Java", "Spring"]
+      "title": "Geofencing",
+      "term": "Enginering Society for Good (EGSC)",
+      "description": "A web application to track GPS location of specially-abled students inside the school. Made for Rainbow Centre Singapore. ",
+      "attribution": "The GPS beacons ran on Bluetooth Low Energy 5.0 (BLE) and reported info to a base station which talked to AWS using MQTT. The data was stored in Firebase database and displayed on a web app.",
+      "tags": ["React", "AWS", "Firebase", "MQTT"]
+    },
+    {
+      "imgUrl": "/assets/images/example-image-light.png",
+      "githubUrl": "https://github.com/ddongule",
+      "projectUrl": "",
+      "title": "ConTech",
+      "term": "v1",
+      "description": "A contact management application for computing professionals to enhance productivity with custom fields and a UNIX-like syntax.",
+      "attribution": "The program was made as part of our CS2113T Software Engineering module.",
+      "tags": ["Java", "Gradle", "GitHub Pages", "JUnit"]
+    },
+    {
+      "imgUrl": "/assets/images/example-image-light.png",
+      "githubUrl": "https://github.com/ddongule",
+      "projectUrl": "",
+      "title": "Lowkey",
+      "term": "Orbital",
+      "description": "Password manager and 2FA web extension to autofill passwords and OTPs, along with data synchronization across devices via the cloud",
+      "attribution": "The main app was made using Vue.js and Tailwind CSS. The Chrome extension was made using the Chrome API. The backend was made using Firebase.",
+      "tags": ["Vue.js", "Tailwind CSS", "Firebase", "Speakeasy", "Chrome API"]
     }
   ],
 
@@ -105,15 +118,29 @@
   "experiences": [
     {
       "imgUrl": "/assets/images/example-image-dark.png",
-      "title": "[Software Engineer] Woowa Corp.",
-      "term": "21.02 - 현재 진행 중",
+      "title": "[Data Engineer Intern] Keysight Technologies",
+      "term": "23.06 - Present",
       "description": "The Experiences that I have in Woowa Corp. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
       "experienceUrl": "https://woowacourse.github.io/"
     },
     {
       "imgUrl": "/assets/images/example-image-light.png",
-      "title": "[Intern] Woowa Corp.",
-      "term": "19.11 - 21.03",
+      "title": "[Cloud Engineer Intern] Singtel",
+      "term": "22.06 - 22.08",
+      "description": "The Experiences that I have in Woowa Corp. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia .. ",
+      "experienceUrl": "https://woowacourse.github.io/"
+    },
+    {
+      "imgUrl": "/assets/images/example-image-light.png",
+      "title": "[Undergraduate Researcher] National University of Singapore",
+      "term": "22.06 - 22.08",
+      "description": "The Experiences that I have in Woowa Corp. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia .. ",
+      "experienceUrl": "https://woowacourse.github.io/"
+    },
+    {
+      "imgUrl": "/assets/images/example-image-light.png",
+      "title": "[Teaching Assistant] National University of Singapore",
+      "term": "22.06 - 22.08",
       "description": "The Experiences that I have in Woowa Corp. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia .. ",
       "experienceUrl": "https://woowacourse.github.io/"
     }
@@ -121,14 +148,14 @@
 
   "educations": [
     {
-      "title": "우아한 대학교 (Woowa University)",
-      "term": "2013.03 - 2017.03",
-      "description": "척척박사 졸업"
+      "title": "National University of Singapore",
+      "term": "2020.08 - 2024.06",
+      "description": "Bachelor's (Hons) Degree in Computer Engineering"
     },
     {
-      "title": "잠실 고등학교 (Jamsil High School)",
+      "title": "New Millennium DPS School",
       "term": "2010.03 - 2013.02",
-      "description": "인문계 졸업"
+      "description": "High School"
     }
   ]
 }

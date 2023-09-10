@@ -15,7 +15,7 @@ const SkillSets = () => {
         <>
           <SubTitle>Skill Sets</SubTitle>
           <div className='skill-sets-container'>
-            <div className='description'>
+            {/* <div className='description'> 
               <div className='description-item'>
                 <span className='level expert'>4 - 5</span>: {t('skill-sets-professional')}
               </div>
@@ -25,7 +25,7 @@ const SkillSets = () => {
               <div className='description-item'>
                 <span className='level'>1 - 2</span>: {t('skill-sets-beginner')}
               </div>
-            </div>
+            </div> */}
             {skillSets.map((set, index) => (
               <div className='skill-set' key={index}>
                 <div className='category'>{set.category}</div>
